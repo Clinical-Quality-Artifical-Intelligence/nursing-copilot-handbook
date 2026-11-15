@@ -79,6 +79,7 @@ section.alt { background: var(--mist); }
 
 /* pricing */
 .prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
+.prices.two { grid-template-columns: repeat(2, 1fr); max-width: 760px; }
 .price { background: var(--white); border: 2px solid #dbe5ee; border-radius: var(--radius); padding: 26px; display: flex; flex-direction: column; }
 .price.featured { border-color: var(--navy); }
 .price .amount { font: 800 2.4rem/1 Montserrat, Arial, sans-serif; color: var(--navy); margin: 8px 0 12px; }
@@ -112,7 +113,7 @@ footer a { color: var(--white); }
 @media (max-width: 860px) {
   .hero .wrap, .about, .sample-band { grid-template-columns: 1fr; }
   .hero .mock { max-width: 260px; }
-  .grid3, .prices, .samples { grid-template-columns: 1fr; }
+  .grid3, .prices, .prices.two, .samples { grid-template-columns: 1fr; }
   .samples { grid-template-columns: repeat(2, 1fr); }
   .inside { grid-template-columns: 1fr; }
   .btn-ghost { margin: 12px 0 0; }
