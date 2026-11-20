@@ -93,11 +93,11 @@
     if (first) first.focus();
   });
 
-  // Record clicks on Stripe buy buttons (only sent if analytics was accepted)
+  // Record handbook downloads (only sent if analytics was accepted)
   document.addEventListener('click', function (e) {
-    var a = e.target.closest('a[href^="https://buy.stripe.com/"]');
+    var a = e.target.closest('a[data-download], a[href*="drive.google.com"]');
     if (!a || !loaded) return;
-    gtag('event', 'begin_checkout', { currency: 'GBP', item_name: a.textContent.trim(), transport_type: 'beacon' });
+    gtag('event', 'file_download', { file_name: 'The_Nursing_Copilot_Handbook', link_url: a.href, transport_type: 'beacon' });
   });
 
   function start() {
