@@ -35,10 +35,8 @@
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "url": "https://handbook.nursingcitizendevelopment.com/#download" }
 }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
 <script src="assets/consent.js" defer></script>
 </head>
 <body>
@@ -47,7 +45,8 @@
 <header class="top">
   <div class="wrap">
     <a href="https://nursingcitizendevelopment.com" aria-label="Nursing Citizen Development home"><img src="assets/ncd-logo-reversed.png" alt="Nursing Citizen Development"></a>
-    <nav aria-label="Page">
+    <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Page">
       <a href="#inside">What's inside</a>
       <a href="#samples">Sample pages</a>
       <a href="#faq">Questions</a>
@@ -70,8 +69,10 @@
         <li>Safe-use level on every prompt</li>
         <li>Free PDF download</li>
       </ul>
-      <a class="btn btn-primary" href="#download">Download free</a>
-      <a class="btn btn-ghost" href="assets/The_Nursing_Copilot_Handbook_Free_Sample.pdf" download>Free sample chapter</a>
+      <div class="actions">
+        <a class="btn btn-primary" href="#download">Download free</a>
+        <a class="btn btn-ghost" href="assets/The_Nursing_Copilot_Handbook_Free_Sample.pdf" download>Free sample chapter</a>
+      </div>
     </div>
     <img class="mock" src="assets/Handbook_Tablet_Mockup.png" width="700" height="947" alt="The handbook cover shown on a tablet">
   </div>
@@ -122,15 +123,20 @@
 
 <section class="alt" id="download" aria-labelledby="download-h">
   <div class="wrap">
-    <p class="eyebrow">Free from Nursing Citizen Development</p>
-    <h2 id="download-h">Download the handbook free</h2>
-    <p>The Nursing Copilot Handbook is now a free resource from Nursing Citizen Development CIC, a not-for-profit community interest company. The download includes the PDF, a searchable prompt spreadsheet, a CPD log template for revalidation and the printable safe-use card.</p>
-    <p style="margin-top:20px"><a class="btn btn-primary" href="https://drive.google.com/uc?export=download&id=1fyRcrIffn7quD6YzajdcwzWsA13YOGaP" data-download>Download the handbook (zip, 1 MB)</a> <a class="btn btn-ghost" href="https://drive.google.com/file/d/1fyRcrIffn7quD6YzajdcwzWsA13YOGaP/view">Open in Google Drive</a></p>
-    <p class="small" style="margin-top:8px">If the download is blocked on a work network, use "Open in Google Drive" or try a personal device.</p>
-    <h3 style="margin-top:36px">Use it, share it, adapt it. Don't sell it.</h3>
-    <p>The handbook is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)</a>. You can:</p>
-    <ul style="padding-left:20px"><li>share it with colleagues, students and your whole organisation, including on your intranet, SharePoint or learning platform;</li><li>adapt the prompts for your service or teaching;</li></ul>
-    <p>as long as you credit "The Nursing Copilot Handbook by Nursing Citizen Development CIC, CC BY-NC-SA 4.0", don't sell it or put it in a paid product or course, and share any adapted version under the same licence. The Nursing Citizen Development name and logo are not covered by the licence. See the <a href="terms.html">licence and terms</a>.</p>
+    <div class="download-box">
+      <p class="eyebrow">Free from Nursing Citizen Development</p>
+      <h2 id="download-h">Download the handbook free</h2>
+      <p>The Nursing Copilot Handbook is now a free resource from Nursing Citizen Development CIC, a not-for-profit community interest company. The download includes the PDF, a searchable prompt spreadsheet, a CPD log template for revalidation and the printable safe-use card.</p>
+      <div class="actions" style="margin-top:20px">
+        <a class="btn btn-primary" href="https://drive.google.com/uc?export=download&id=1fyRcrIffn7quD6YzajdcwzWsA13YOGaP" data-download>Download the handbook (zip, 1 MB)</a>
+        <a class="btn btn-outline-dark" href="https://drive.google.com/file/d/1fyRcrIffn7quD6YzajdcwzWsA13YOGaP/view">Open in Google Drive</a>
+      </div>
+      <p class="small" style="margin-top:10px">If the download is blocked on a work network, use "Open in Google Drive" or try a personal device.</p>
+      <h3 style="margin-top:32px">Use it, share it, adapt it. Don't sell it.</h3>
+      <p>The handbook is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)</a>. You can:</p>
+      <ul style="padding-left:20px"><li>share it with colleagues, students and your whole organisation, including on your intranet, SharePoint or learning platform;</li><li>adapt the prompts for your service or teaching;</li></ul>
+      <p style="margin-bottom:0">as long as you credit "The Nursing Copilot Handbook by Nursing Citizen Development CIC, CC BY-NC-SA 4.0", don't sell it or put it in a paid product or course, and share any adapted version under the same licence. The Nursing Citizen Development name and logo are not covered by the licence. See the <a href="terms.html">licence and terms</a>.</p>
+    </div>
   </div>
 </section>
 
