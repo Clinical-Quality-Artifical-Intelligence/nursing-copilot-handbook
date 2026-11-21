@@ -1,0 +1,26 @@
+# The Nursing Copilot Handbook
+
+> A free handbook (first edition, November 2026) of 406 practical Microsoft 365 Copilot and Copilot Chat prompts for every field of nursing, across 53 chapters, with safe-use guidance. Built on the NCD Nursing Prompt Cycle, which follows the nursing process (Assess, Plan, Implement, Evaluate), and mapped to the NMC Code. Written by Lincoln Gombedza, Registered Learning Disability Nurse, and published free by Nursing Citizen Development CIC (company no. 17324367, England and Wales) under CC BY-NC-SA 4.0: anyone may share and adapt it, including NHS organisations, universities and care providers for their own training, with credit and not for commercial use. It is an educational resource, not clinical guidance.
+
+## Get it
+
+- [Download page](https://handbook.nursingcitizendevelopment.com/#download): free zip with the PDF (142 pages), a searchable prompt index (Excel), a CPD log template, a CPD certificate template and a one-page safe-use card.
+- [Free sample PDF](https://handbook.nursingcitizendevelopment.com/assets/The_Nursing_Copilot_Handbook_Free_Sample.pdf)
+
+## What is inside
+
+- Five parts: everyday nursing work (handover, communication, meetings, policies, quality improvement, safety, teaching, leadership, data, revalidation); all fields of nursing (adult, emergency, critical care, mental health, learning disability, children and young people, maternity, community, general practice, public health, older people, palliative care, long-term conditions, social care, forensic settings, nursing associates, students, internationally educated nurses, advanced practice, research); nursing in its wider context (wellbeing, digital nursing and safe AI, agents, accessible information, safeguarding, inclusion health, disability, trauma-informed practice, medicines safety, the four UK nations, checking Copilot's work, AI scribes, building agents safely); and anti-racism, equality and workforce standards.
+- A safe-use level on every prompt: Open, De-identify first, or Clinical boundary. Red lines: no patient-identifiable information and no clinical decisions.
+- Each prompt is labelled for Copilot Chat or Microsoft 365 Copilot.
+- A free updated edition will follow the new NMC Code (expected 2027).
+
+## Policies
+
+- [Licence and terms](https://handbook.nursingcitizendevelopment.com/terms.html)
+- [Privacy and cookies](https://handbook.nursingcitizendevelopment.com/privacy.html)
+
+## Related
+
+- [Nursing Citizen Development](https://nursingcitizendevelopment.com/): the publisher.
+- [NCD AI Nursing Toolkit](https://practicedev.cloud/): free companion toolkit on AI in nursing.
+- Contact: info@nursingcitizendevelopment.com
